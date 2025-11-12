@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails du Projet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="projet-title">Détails du Projet</h1>
+
+        <video id="projet-video" controls>
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Galerie de screenshots -->
+        <div class="gallery">
+            <img id="p2" class="screenshot" onclick="showImage(this)" >
+            <img id="p3" class="screenshot" onclick="showImage(this)" >
+            <img id="p8" class="screenshot" onclick="showImage(this)">
+            <img id="p9" class="screenshot" onclick="showImage(this)">
+            <img id="p4" class="screenshot" onclick="showImage(this)">
+            <img id="p7" class="screenshot" onclick="showImage(this)">
+           
+           
+          
+        </div>
+        <div class="overlay" onclick="hideImage()">
+            <img id="largeImage" src="" alt="Agrandissement">
+        </div>
+
+        <!-- Retour -->
+        <a href="index.html" class="btn btn-secondary">Retour</a>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img">
+    </div>
+
+    <script src="js/projet-details.js"></script>
+</body>
+</html>

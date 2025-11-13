@@ -9,7 +9,7 @@ const projetsData = {
     stack: 'Spring Boot & React',
     description: 'Application complète de gestion de stock développée avec Spring Boot pour le backend et React pour le frontend. Système complet de gestion des produits, inventaires, fournisseurs et commandes avec authentification et tableaux de bord.',
     technologies: ['Spring Boot', 'React', 'MySQL'],
-    video: '/gestionprojet(1).mp4',
+    video: '/gestionprojet-1.mp4',
     features: [
       'Gestion complète des produits',
       'Suivi des inventaires en temps réel',
@@ -141,7 +141,7 @@ export default function ProjetDetail() {
               muted
               loop
               className="w-full h-auto rounded-lg shadow-lg"
-              poster="/placeholder-video.jpg"
+              
             >
               <source src={projet.video} type="video/mp4" />
               Votre navigateur ne supporte pas la lecture de vidéos.

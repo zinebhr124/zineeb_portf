@@ -9,7 +9,7 @@ const projetsData = {
     stack: 'Spring Boot & React',
     description: 'Application complète de gestion de stock développée avec Spring Boot pour le backend et React pour le frontend. Système complet de gestion des produits, inventaires, fournisseurs et commandes avec authentification et tableaux de bord.',
     technologies: ['Spring Boot', 'React', 'MySQL'],
-    video: '/gestionprojet-1.mp4',
+    video: 'https://res.cloudinary.com/digaurc8s/video/upload/v1763030835/gestionprojet_qztjfi.mp4',
     features: [
       'Gestion complète des produits',
       'Suivi des inventaires en temps réel',
@@ -25,7 +25,7 @@ const projetsData = {
     stack: 'Laravel & ReactJS',
     description: 'Plateforme d\'apprentissage en ligne complète développée avec Laravel pour le backend et ReactJS pour le frontend. Système complet de gestion des cours, étudiants, instructeurs, évaluations et suivi des progrès avec tableau de bord analytique.',
     technologies: ['Laravel', 'ReactJS', 'MySQL'],
-    video: '/e-learning plateforme.mp4',
+    video: 'https://res.cloudinary.com/digaurc8s/video/upload/v1763031759/e-learning_plateforme_gsfpow.mp4',
     features: [
       'Gestion des cours et modules',
       'Système d\'inscription des étudiants',
@@ -42,7 +42,7 @@ const projetsData = {
     stack: 'Front-end & Back-end',
     description: 'Développement d\'une plateforme web complète pour la gestion et la présentation d\'annonces immobilières. Interface utilisateur moderne avec système de recherche avancée, gestion des biens, et espace administrateur.',
     technologies: ['HTML/CSS', 'JavaScript', 'PHP', 'MySQL', 'Bootstrap'],
-    video: '/bayti-demo.mp4',
+    video: 'https://res.cloudinary.com/digaurc8s/video/upload/v1763031641/bayti-demo_u6cvzq.mp4',
     images: [
       '/bayti-1.jpg',
       '/bayti-2.jpg',
@@ -61,7 +61,7 @@ const projetsData = {
     stack: 'UI/UX, Front-end & Back-end',
     description: 'Refonte complète de l\'espace étudiant de l\'IGA avec amélioration de l\'expérience utilisateur, nouveau design moderne et fonctionnalités avancées.',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Figma'],
-    video: '/iga-demo.mp4',
+    video: 'https://res.cloudinary.com/digaurc8s/video/upload/v1763031869/iga-demo_d5gwmp.mp4',
     images: [
       '/iga-1.jpg',
       '/iga-2.jpg',
@@ -80,7 +80,7 @@ const projetsData = {
     stack: 'UI/UX, Front-end',
     description: 'Conception et développement d\'une application mobile pour la gestion de fournitures bureautiques avec interface intuitive et fonctionnalités de commande.',
     technologies: ['Android Studio', 'Java', 'SQLite', 'Material Design'],
-    video: '/bureautique-demo.mp4',
+    video: 'https://res.cloudinary.com/digaurc8s/video/upload/v1763032029/bureautique-demo_bmru9w.mp4',
     images: [
       '/bureautique-1.jpg',
       '/bureautique-2.jpg',
